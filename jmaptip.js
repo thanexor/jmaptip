@@ -54,11 +54,11 @@
                 case 'toggle':
                     tip.stop(true, true).show();
                     break;
-                case 'fadeToggle':
-                    tip.stop(true, true).fade(options.speed);
+                case 'fadeIn':
+                    tip.stop(true, true).fadeIn(options.speed);
                     break;
-                case 'slideToggle':
-                    tip.stop(true, true).slide(options.speed);
+                case 'slideDown':
+                    tip.stop(true, true).slideDown(options.speed);
                     break;
             }
         });
